@@ -1,3 +1,4 @@
 export default function numberMapToWord(collection) {
-  // TODO 3: 在这里写实现代码
+  const temp_array = collection.map(i => String.fromCharCode(64 + parseInt(i)).toLowerCase());
+  return temp_array;
 }

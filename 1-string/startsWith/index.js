@@ -1,3 +1,4 @@
 export default function collectCarNumberCount(collection) {
-  // TODO 7: 在这里写实现代码
+  const temp_array = collection.filter(i => new RegExp('^粤A.*$').test(i));
+  return temp_array.length;
 }

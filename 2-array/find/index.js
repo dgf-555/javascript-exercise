@@ -1,3 +1,4 @@
 export default function find00OldPerson(collection) {
-  // TODO 4: 在这里写实现代码
+  const temp_array = collection.find(i => i.age < 20);
+  return temp_array.name;
 }
